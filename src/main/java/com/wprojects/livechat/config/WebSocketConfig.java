@@ -17,7 +17,7 @@ public class WebSocketConfig
     @Override
     public void registerStompEndpoints(StompEndpointRegistry registry) {
         registry.addEndpoint("/chat")   // add endpoint
-                .setAllowedOrigins("http://localhost:5173") // allow requests from the url only
+                .setAllowedOrigins("http://localhost:8080") // allow requests from the url only
                 .withSockJS();  // allows clients to connect even if native WebSockets are unavailable
     }
 

@@ -12,6 +12,7 @@ Technologies & Tools
 		- Spring WebSocket
 		- Spring Messaging (STOMP protocol)
 		- Thymeleaf
+		- Lombok
 
 	Frontend
 		- HTML/CSS
@@ -26,6 +27,9 @@ Development steps
     2. Create SpringBoot project
         - add dependencies
     3. Set up WebSocket configuration
+        - create package "config"
         - override registerStompEndpoints
         - override configureMessageBroker
-
+    4. Set up Controller and Model
+        - create package "controller"
+        - map requests and methods
