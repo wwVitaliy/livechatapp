@@ -20,9 +20,9 @@ public class ChatController {
         return message;
     }
 
-    @GetMapping("/chat")
+    @GetMapping("chat")
     public String chat(){
-        return "chat";  // return thymeleaf template
+        return "chat";  // return thymeleaf template chat.html
     }
 
 }

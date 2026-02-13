@@ -33,3 +33,9 @@ Development steps
     4. Set up Controller and Model
         - create package "controller"
         - map requests and methods
+    5. Build the front end
+        - create template chat.html
+        - build a UI
+        - add bootstrap
+        - add SockJS
+        - create a script
